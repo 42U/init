@@ -6,7 +6,7 @@ on a daily basis.
 V.1 Let’s be friends
 Follow Slash16 on Facebook, Twitter and Linkedin.
 
-Slash16 is a network of people who are passionate about system and network adminis- tration and/or
+Slash16 is a network of people who are passionate about system and network administration and/or
 operations development (DevOps).
 
 Our goal is also to enable a flow of knowledge across our members by setting up common projects, conferences or via any
