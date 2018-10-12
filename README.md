@@ -4,8 +4,10 @@ many of the services used on a server machine, as well as a few ideas of scripts
 on a daily basis.
 
 V.1 Let’s be friends: Follow Slash16 on Facebook, Twitter and Linkedin.
+
 Slash16 is a network of people who are passionate about system and network adminis- tration and/or
 operations development (DevOps).
+
 Our goal is also to enable a flow of knowledge across our members by setting up common projects, conferences or via any
 others type of activity that makes it possible to share both knowledge and professional experience.
 
@@ -23,7 +25,6 @@ The answer to the question 01 of the network part should be in the network/01 fi
 3, “System” and “Scripting” must be done on a Debian virtual machine.
 
 
-Chapter V Mandatory part 
 V.2 Network
 1. Get the list of the network interfaces of the machine without displaying any detail for these interfaces.
 Only the list of names.
@@ -35,16 +36,15 @@ Only the list of names.
 7. Query an external DNS server on the slash16.org domain name (ie. : google 8.8.8.8)
 8. Find the provider of slash16.org
 9. Find the external IP of 42.fr
-
-
-System and Network Administration init
- 10. Identify the network devices between your computer and the slash16.org domain
+10. Identify the network devices between your computer and the slash16.org domain
 11. Use the output of the previous command to find the name and IP address of the
 device that makes the link between you (local network) and the outside world
 12. Check that the server with the 10.51.1.253 IP address is reachable from your computer.
 13. Use the Reverse DNS to find out the name of the server linked to the 10.51.1.81 IP address
 14. What file contains the local DNS entries?
 15. Make the intra.42.fr address reroute to 46.19.122.85
+
+
 V.3 System
 1. In what file can you find the installed version of your Debian?
 2. What command can you use to rename your system?
@@ -54,9 +54,6 @@ V.3 System
 6. Name the command that reboots the SSH service.
 7. Figure out the PID of the SSHD service.
 8. What file contains the RSA keys of systems that are authorized to connect via SSH?
-
-
-System and Network Administration init
 9. What command lets you know who is connected to the System?
 10. Name the command that lists the partition tables of drives?
 11. Name the command that displays the available space left and used on the system in an humanly understandable way
@@ -70,7 +67,6 @@ System and Network Administration init
 19. With the previous command, forbid all others IP
 
 
-System and Network Administration init
 V.4 Scripting
 1. Write a script which displays only the login, UID and Path of each entry of the /etc/passwd file.
 2. Write a script which updates all the package sources, then all the packages, and then logs everything in a
