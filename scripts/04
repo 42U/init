@@ -1,0 +1,25 @@
+if [ -z "$2" ]; then
+echo "USAGE: sh"
+exit 1
+fi
+
+if [ $(ps aux | grep inotifywait | grep -c "$1" ) -gt '0' ]; then
+echo "Already running $1 $(ps aux | grep inotifywait | grep "$1")";
+exit 1;
+fi
+
+type -P inotifywait &>/dev/null || { echo "error this script requires inotifywait(http://wiki.github.com/rvoicilas/inotify-tools/) apt-get install inotify-tools"exit 1; }
+
+echo "monitoring file $1 for changes - sending alert to $2"
+
+while inotifywait -e modify -e attrib -e move -e delete $1 -o ~/scripts/audit.log; do
+	sleep 1
+
+	changes="$(cat ~/scripts/audit.log)"
+	echo "There was a change to to $1 !" | mail -s "change in $1" $2
+	rm ~/scripts/audit.log
+	touch ~/scripts/audit.log
+	done
+else
+	echo "error file not found"
+fi

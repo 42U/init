@@ -1,0 +1,23 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    12                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: issmith <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/08/31 09:35:50 by issmith           #+#    #+#              #
+#    Updated: 2018/08/31 09:35:54 by issmith          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+ping 10.51.1.253
+
+# PING 10.51.1.253 (10.51.1.253): 56 data bytes
+# 64 bytes from 10.51.1.253: icmp_seq=0 ttl=62 time=0.260 ms
+# 64 bytes from 10.51.1.253: icmp_seq=1 ttl=62 time=0.206 ms
+# 64 bytes from 10.51.1.253: icmp_seq=2 ttl=62 time=0.351 ms
+# 64 bytes from 10.51.1.253: icmp_seq=3 ttl=62 time=0.242 ms
+#
+# --- 10.51.1.253 ping statistics ---
+# 4 packets transmitted, 4 packets received, 0.0% packet loss
+# round-trip min/avg/max/stddev = 0.206/0.265/0.351/0.053 ms

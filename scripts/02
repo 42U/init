@@ -1,0 +1,8 @@
+#!/bin/bash
+
+f(){
+	sudo apt update >> /var/log/update_script.log;
+	echo '0 4 * * 1 root /etc/cron.daily/apt_update.sh' | crontab
+}
+
+f

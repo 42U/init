@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# script to see each entry by login, UID, path
+
+cat /etc/passwd | awk -F ':' '{ printf "%-25s | %5d | %s\n", $1, $3, $6}'

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# list files from current dir, as parameter sorted by size
+
+f(){
+	if [ "$1" != "" ]; then
+		ls -lS $1;
+	else
+		echo "nope"
+	fi
+}
+f
