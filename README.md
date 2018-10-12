@@ -3,7 +3,8 @@ This first project, init, will give you the opportunity to discover system and n
 many of the services used on a server machine, as well as a few ideas of scripts that can be useful for SysAdmins
 on a daily basis.
 
-V.1 Let’s be friends: Follow Slash16 on Facebook, Twitter and Linkedin.
+V.1 Let’s be friends
+Follow Slash16 on Facebook, Twitter and Linkedin.
 
 Slash16 is a network of people who are passionate about system and network adminis- tration and/or
 operations development (DevOps).
